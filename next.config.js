@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  distDir: 'out',
+  images: {
+    unoptimized: true
+  },
   reactStrictMode: true,
   webpack: (config, { nextRuntime }) => {
     if (typeof nextRuntime === "undefined") {
