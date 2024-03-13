@@ -16,7 +16,7 @@ export default function Home() {
 
         {/* activity */}
         <div className="px-8 py-6 flex flex-col">
-          <div className="font-bold">Today`s activity</div>
+          <div className="font-bold">{"Today's activity"}</div>
           <div className="flex justify-between">
             <div></div>
           </div>
