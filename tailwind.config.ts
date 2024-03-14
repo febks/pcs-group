@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import { DEFAULT_COLOR, PRIMARY_COLOR, PURPLE_COLOR } from "./components/propertiesConstant";
+import { DEFAULT_COLOR, LIGHT_BLUE_COLOR, PRIMARY_COLOR, PURPLE_COLOR } from "./components/propertiesConstant";
 
 const config: Config = {
   content: [
@@ -18,6 +18,7 @@ const config: Config = {
         primary: PRIMARY_COLOR,
         default_grey: DEFAULT_COLOR,
         purple: PURPLE_COLOR,
+        light_blue: LIGHT_BLUE_COLOR
       }
     },
   },
