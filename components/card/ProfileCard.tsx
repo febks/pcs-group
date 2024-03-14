@@ -9,7 +9,7 @@ const ProfileCard = () => {
     <div className="px-5 flex flex-col gap-2">
       <div>Hi, Good Morning!</div>
       <div className="
-      rounded-lg
+      rounded-xl
       w-full
       h-max
       bg-gradient-to-r
