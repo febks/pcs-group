@@ -23,7 +23,7 @@ const Notification: React.FC<INotif> = ({ handleClose }) => {
       transform: "translate(0%)"
     }} className="absolute h-full w-full bg-white z-40 transition ease-in-out">
       <div className="sticky top-0 bg-white p-6 flex gap-2 items-center shadow-[0_3px_8px_rgba(0,0,0,0.35)] z-50">
-        <div onClick={handleClose} className="text-black"><BackIcon /></div>
+        <div onClick={handleClose} className="text-black cursor-pointer"><BackIcon /></div>
         <div className="text-primary font-bold text-lg">Notification</div>
       </div>
       <div className="flex flex-col gap-0 overflow-y-auto max-h-screen mb-96 bg-white">
