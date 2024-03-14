@@ -52,3 +52,24 @@ export const LIST_PROFILE = [
   //   image: "../../public/static/images/profile.jpeg"
   // }
 ]
+
+export const CAROUSEL = [
+  {
+    id: 1,
+    name: "test",
+    date: "",
+    description: ""
+  },
+  {
+    id: 2,
+    name: "test",
+    date: "",
+    description: ""
+  },
+  {
+    id: 3,
+    name: "test",
+    date: "",
+    description: ""
+  },
+]

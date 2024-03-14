@@ -5,24 +5,19 @@ import React from "react";
 import ProfileCard from "@/components/card/ProfileCard";
 import Activity from "@/components/activity/Activity";
 import Online from "@/components/online/Online";
+import News from "@/components/news/News";
 
 export default function Home() {
   return (
     <div>
       <Headbar />
       <div className="text-black flex flex-col justify-between">
-        {/* card */}
-        <ProfileCard />
-
-        {/* activity */}
-        <Activity />
-
-        {/* Online */}
-        <Online />
+        <ProfileCard /> {/* card */}
+        <Activity /> {/* activity */}
+        <News /> {/* News */}
+        <Online /> {/* Online */}
       </div>
-      {/* <div className="md:hidden"> */}
-        <FooterNav />
-      {/* </div> */}
+      <FooterNav />
     </div>
   );
 }
