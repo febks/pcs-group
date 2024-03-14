@@ -15,6 +15,8 @@ const Headbar = () => {
     flex-row
     justify-between
     top-0
+    sticky
+    z-50
     "
     >
       <div className="cursor-pointer">

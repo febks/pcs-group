@@ -16,6 +16,7 @@ const FooterNav = () => {
       justify-between
       h-14
       bg-white
+      z-50
       ">
       <div className="
         cursor-pointer

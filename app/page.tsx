@@ -20,7 +20,6 @@ export default function Home() {
         {/* Online */}
         <Online />
       </div>
-
       {/* <div className="md:hidden"> */}
         <FooterNav />
       {/* </div> */}
