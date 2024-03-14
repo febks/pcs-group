@@ -39,7 +39,7 @@ const Online = () => {
             <div className="text-[8px] sm:text-xs font-light">{item.loc}</div>
           </div>
         ))}
-        <div className="w-9 h-9 sm:h-14 sm:w-14 ml-[-8px] mt-[5px] relative overflow-hidden flex items-center text-center rounded-[50%] drop-shadow-md bg-primary text-xs sm:text-m font-bold text-white">
+        <div className="w-9 h-9 sm:h-14 sm:w-14 ml-[-8px] mt-[5px] overflow-hidden flex items-center text-center rounded-[50%] drop-shadow-md bg-primary text-xs md:text-lg font-medium sm:font-bold text-white">
           10 more
         </div>
       </div>

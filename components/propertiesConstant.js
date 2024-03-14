@@ -45,10 +45,10 @@ export const LIST_PROFILE = [
     loc: "BSD",
     image: "../../public/static/images/profile.jpeg"
   },
-  {
-    id: 8,
-    name: "Nesha",
-    loc: "WFH",
-    image: "../../public/static/images/profile.jpeg"
-  }
+  // {
+  //   id: 8,
+  //   name: "Nesha",
+  //   loc: "WFH",
+  //   image: "../../public/static/images/profile.jpeg"
+  // }
 ]
