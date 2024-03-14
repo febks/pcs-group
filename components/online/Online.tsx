@@ -25,7 +25,7 @@ const Online = () => {
     )
   }
   return (
-    <div className="flex flex-col px-5">
+    <div className="flex flex-col px-5 mb-60">
       <div className="font-bold">Online</div>
       <div className="bg-white drop rounded-xl flex py-4 px-2 sm:px-6 mt-3 shadow-[0_3px_8px_rgba(0,0,0,0.35)] justify-center">
         {LIST_PROFILE.map((item, index) => (
